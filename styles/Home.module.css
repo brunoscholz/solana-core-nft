@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background: "#1F1F1F"
 }
 
 .main {
@@ -106,6 +107,10 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.wallet-adapter-button-trigger {
+  background-color: #833BBE;
 }
 
 @media (max-width: 600px) {
