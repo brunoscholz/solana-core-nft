@@ -1,0 +1,44 @@
+{
+  "name": "Simple Slingshot",
+  "symbol": "DDD",
+  "description": "Slingshot",
+  "image": "5.jpg",
+  "attributes": [
+    {
+      "trait_type": "accessory",
+      "value": "throw"
+    },
+    {
+      "trait_type": "material",
+      "value": "wood"
+    },
+    {
+      "trait_type": "defense",
+      "value": "0"
+    },
+    {
+      "trait_type": "attack",
+      "value": "1"
+    },
+    {
+      "trait_type": "hands",
+      "value": "2"
+    },
+    {
+      "trait_type": "attack_speed",
+      "value": "2"
+    },
+    {
+      "trait_type": "range",
+      "value": "3"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "5.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}

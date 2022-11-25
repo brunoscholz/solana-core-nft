@@ -1,0 +1,40 @@
+{
+  "name": "Simple Club",
+  "symbol": "DDD",
+  "description": "A little more than a wooden stick",
+  "image": "4.jpg",
+  "attributes": [
+    {
+      "trait_type": "accessory",
+      "value": "club"
+    },
+    {
+      "trait_type": "material",
+      "value": "wood"
+    },
+    {
+      "trait_type": "defense",
+      "value": "1"
+    },
+    {
+      "trait_type": "attack",
+      "value": "3"
+    },
+    {
+      "trait_type": "hands",
+      "value": "1"
+    },
+    {
+      "trait_type": "attack_speed",
+      "value": "0"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "4.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}

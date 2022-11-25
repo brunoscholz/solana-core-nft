@@ -1,0 +1,40 @@
+{
+  "name": "Simple Sword",
+  "symbol": "DDD",
+  "description": "Almost a wooden stick",
+  "image": "3.jpg",
+  "attributes": [
+    {
+      "trait_type": "accessory",
+      "value": "sword"
+    },
+    {
+      "trait_type": "material",
+      "value": "wood"
+    },
+    {
+      "trait_type": "defense",
+      "value": "0"
+    },
+    {
+      "trait_type": "attack",
+      "value": "2"
+    },
+    {
+      "trait_type": "hands",
+      "value": "1"
+    },
+    {
+      "trait_type": "attack_speed",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "3.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}

@@ -40,15 +40,13 @@ async function createBldToken(connection: web3.Connection, payer: web3.Keypair) 
   const imageUri = await metaplex.storage().upload(file)
 
   // Upload the rest of offchain metadata
-  const { uri } = await metaplex
-    .nfts()
-    .uploadMetadata({
-      name: TOKEN_NAME,
-      description: TOKEN_DESCRIPTION,
-      image: imageUri
-    })
+  const { uri } = await metaplex.nfts().uploadMetadata({
+    name: TOKEN_NAME,
+    description: TOKEN_DESCRIPTION,
+    image: imageUri
+  })
 
-    console.log('metadata uri:', uri)
+  console.log('metadata uri:', uri)
 
   // Finding out the address where the metadata is stored
   const metadataPda = findMetadataPda(tokenMint)
@@ -82,13 +80,25 @@ async function createBldToken(connection: web3.Connection, payer: web3.Keypair) 
   transaction.add(instruction)
 
   const transactionSignature = await web3.sendAndConfirmTransaction(connection, transaction, [payer])
+
+  fs.writeFileSync(
+    'tokens/bld/cache.json',
+    JSON.stringify({
+      mint: tokenMint.toBase58(),
+      imageUri: imageUri,
+      metadataUri: uri,
+      tokenMetadata: metadataPda.toBase58(),
+      metadataTransaction: transactionSignature
+    })
+  )
 }
 
 async function main() {
   const connection = new web3.Connection(web3.clusterApiUrl('devnet'))
   const payer = await initializeKeypair(connection)
 
-  await createBldToken(connection, payer);
+  console.log(payer.publicKey.toString())
+  // await createBldToken(connection, payer)
 }
 
 main()

@@ -1,0 +1,36 @@
+{
+  "name": "Simple Armor",
+  "symbol": "DDD",
+  "description": "Shirt that looks cheap",
+  "image": "1.jpg",
+  "attributes": [
+    {
+      "trait_type": "accessory",
+      "value": "armor"
+    },
+    {
+      "trait_type": "material",
+      "value": "cloth"
+    },
+    {
+      "trait_type": "defense",
+      "value": "1"
+    },
+    {
+      "trait_type": "attack",
+      "value": "0"
+    },
+    {
+      "trait_type": "cold_resistance",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}

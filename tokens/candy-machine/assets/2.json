@@ -1,0 +1,32 @@
+{
+  "name": "Simple Shield",
+  "symbol": "DDD",
+  "description": "Cheap wooden board",
+  "image": "2.jpg",
+  "attributes": [
+    {
+      "trait_type": "accessory",
+      "value": "shield"
+    },
+    {
+      "trait_type": "material",
+      "value": "wood"
+    },
+    {
+      "trait_type": "defense",
+      "value": "2"
+    },
+    {
+      "trait_type": "attack",
+      "value": "1"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "2.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}

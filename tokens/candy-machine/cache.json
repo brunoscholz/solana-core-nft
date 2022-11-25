@@ -1,0 +1,65 @@
+{
+  "program": {
+    "candyMachine": "D4cuGmeocp9fzAgqz71kByZak5xejoTWWWzeeRWo96v8",
+    "candyMachineCreator": "8jDoB1bGZtB3oUroAL8yKLMtjgBuaHha7ZTS7vKGkhX2",
+    "collectionMint": "CioowMbMpowEsG7iNGXzy2Gad1hGHPrQe3eGEMoPHC1h"
+  },
+  "items": {
+    "-1": {
+      "name": "Dungeon",
+      "image_hash": "6390e8b06811a01d1b5a93bffbea5778f8d3c39fb08434fea19a19b23ac177d8",
+      "image_link": "https://arweave.net/dLafgmOObo7gdYPPNVUMKmq6Cawmyi5hUe1N8rbbH3w?ext=jpg",
+      "metadata_hash": "a98a3311618717c6011e2cd274e6039b346d6cafdd97f3dc8b91d0488e2eee19",
+      "metadata_link": "https://arweave.net/earQsgTFVIVUWiKc5jUI2iT3DShl3UTxfwAK0Xvoj_Q",
+      "onChain": true
+    },
+    "0": {
+      "name": "Simple Boot",
+      "image_hash": "83f54590a8947355fd31c1d6f5a032315458d77ee6405a965a0e43d1562e12e9",
+      "image_link": "https://arweave.net/oNYJHFL4MGD1-FBdN5ehSGXzlIl0ELW60-3LF0qLoug?ext=jpg",
+      "metadata_hash": "6dcd021307037425bdb94cee8307472846ec6579655cedacd9c28e82c69a17f3",
+      "metadata_link": "https://arweave.net/Khxs5etQYq96QP9dYxWo1V0AnsNF3guDCKPwHSRPJQE",
+      "onChain": true
+    },
+    "1": {
+      "name": "Simple Armor",
+      "image_hash": "f269756faefbe6409487940f45405483c0cbc1a39667df4ba4964d1d9376ceaa",
+      "image_link": "https://arweave.net/gMjsggYcsfd_H8IDjpnyS6Lyf2V5_lwpjvRecuYPsbQ?ext=jpg",
+      "metadata_hash": "5bd149e589bdec78f9225098c0a2eee7139cc4a53ab66150e528c43ec1b1aad3",
+      "metadata_link": "https://arweave.net/cmzoSlQvdr1D8KtowjcBQxHvf0lK-J0xjPEjEgvPxCs",
+      "onChain": true
+    },
+    "2": {
+      "name": "Simple Shield",
+      "image_hash": "94c4df595b8faa31ed09ee3d26aa794edb165ea60d824fdca115ea08e157c116",
+      "image_link": "https://arweave.net/1IxdANgnLuLj4X-UTpllJBO_0f09tdH__cPNJ4eTHIk?ext=jpg",
+      "metadata_hash": "7355f6237a48b5ca122098a81e3def90832076deef76e0a2ce71a1714389b5d4",
+      "metadata_link": "https://arweave.net/FmFm34rEaDLtCww-JKHWcTv-Urq-F47n431yanpfnsU",
+      "onChain": true
+    },
+    "3": {
+      "name": "Simple Sword",
+      "image_hash": "62b117e5717c615f07c5d26cbaf2c8f5780a2cad99476b5cd8c88c5e604a742d",
+      "image_link": "https://arweave.net/GYwH4Bl9zOLWLQVgRRy36PrqlcK4dpNy7kuBvsevamI?ext=jpg",
+      "metadata_hash": "f76472586383c5ebae5ebd21ab7c50fc42659a7d00afb6df0fab7a8cf608ad50",
+      "metadata_link": "https://arweave.net/afybcphHc5osPOZBcSHQ0dY3NBilgXeV3bPTHgnsriQ",
+      "onChain": true
+    },
+    "4": {
+      "name": "Simple Club",
+      "image_hash": "53e34c87d59baf4884e23eff529a76f77da4070e4fc1b1e2327e5e4f6c6614aa",
+      "image_link": "https://arweave.net/qW88jFmMF49fYQMnlwLalKzrJUiPSrf-5AKBP_r_9EQ?ext=jpg",
+      "metadata_hash": "dfd5d34c98fc8d2d2ca82f94c6189f09072ec95b0ddd05ea02ffc705beb2c594",
+      "metadata_link": "https://arweave.net/RWK8wcZl8yESUPRYW5CWWIe-VsYjvfdEt75gC1BPD5I",
+      "onChain": true
+    },
+    "5": {
+      "name": "Simple Slingshot",
+      "image_hash": "22b7f0dcc3e2c90d912103212ff5f613083a7c6bb0c427e5e7939a2bada07942",
+      "image_link": "https://arweave.net/tfqUWG7LO-0tIYcD_HtJcRppbN845S4l6CoyTif_vcY?ext=jpg",
+      "metadata_hash": "887c6564734079ecd6f242592bbd89e4b9805fd931f47c17d217db9bba452a94",
+      "metadata_link": "https://arweave.net/yu7TNbZQ8fdt1cUPKw6f2cTo4THLux-9xg-Krzvb0D4",
+      "onChain": true
+    }
+  }
+}
