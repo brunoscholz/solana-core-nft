@@ -44,7 +44,7 @@ async function createBldToken(connection: web3.Connection, payer: web3.Keypair) 
     name: TOKEN_NAME,
     description: TOKEN_DESCRIPTION,
     image: imageUri
-  })
+  }).run()
 
   console.log('metadata uri:', uri)
 
